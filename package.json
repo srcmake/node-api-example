@@ -1,0 +1,19 @@
+{
+  "name": "basicapi",
+  "version": "1.0.0",
+  "description": "A Node API created to solve a specific problem. Read the README.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "srcmake",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "eslint": "^4.19.1",
+    "express": "^4.16.2",
+    "fuzzball": "^1.1.6",
+    "mongoose": "^5.3.8"
+  }
+}

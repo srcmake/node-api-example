@@ -1,0 +1,216 @@
+{
+	"id": "38972930-cce4-8fcf-1575-867733b47033",
+	"name": "Current",
+	"description": "",
+	"order": [
+		"f6c66174-fb1e-b350-9563-fd2f850f6800",
+		"3483d7b8-d5fa-23ee-f1be-988632d512be",
+		"325caa0a-0c43-eea2-85f8-f42c1cf48788",
+		"fa288df7-f736-749e-ce03-be2c8211eda2",
+		"0e9ff6cb-f5ea-fd10-4016-914908bc10cc",
+		"2ed9de69-5176-f0f9-41b3-a6defcde3a97"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1541373503696,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0e9ff6cb-f5ea-fd10-4016-914908bc10cc",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/visit",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "38972930-cce4-8fcf-1575-867733b47033",
+			"data": [],
+			"dataMode": "raw",
+			"name": "POST3",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1541386974553,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"userId\": \"mike\",\n\t\"locationName\": \"computerstore\"\n}"
+		},
+		{
+			"id": "2ed9de69-5176-f0f9-41b3-a6defcde3a97",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:3000/visit?userId=mike&searchString=LIBRARY",
+			"queryParams": [
+				{
+					"key": "userId",
+					"value": "mike",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "searchString",
+					"value": "LIBRARY",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "38972930-cce4-8fcf-1575-867733b47033",
+			"data": null,
+			"dataMode": "params",
+			"name": "GET3",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1541387017564,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "325caa0a-0c43-eea2-85f8-f42c1cf48788",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/visit",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1541386831111,
+			"name": "POST2",
+			"description": "",
+			"collectionId": "38972930-cce4-8fcf-1575-867733b47033",
+			"responses": [],
+			"rawModeData": "{\n\t\"userId\": \"patrick\",\n\t\"locationName\": \"computerstore\"\n}"
+		},
+		{
+			"id": "3483d7b8-d5fa-23ee-f1be-988632d512be",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:3000/visit?visitId=5bdf7fd9770b0a01bd20cf42",
+			"queryParams": [
+				{
+					"key": "visitId",
+					"value": "5bdf7fd9770b0a01bd20cf42",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1541386164663,
+			"name": "GET1",
+			"description": "",
+			"collectionId": "38972930-cce4-8fcf-1575-867733b47033",
+			"responses": []
+		},
+		{
+			"id": "f6c66174-fb1e-b350-9563-fd2f850f6800",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/visit",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "38972930-cce4-8fcf-1575-867733b47033",
+			"data": [],
+			"dataMode": "raw",
+			"name": "POST1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1541373512211,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"userId\": \"patrick\",\n\"locationName\": \"burgershop\"\n}"
+		},
+		{
+			"id": "fa288df7-f736-749e-ce03-be2c8211eda2",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:3000/visit?userId=patrick&searchString=BURGER SHOP LAS VEGAS",
+			"queryParams": [
+				{
+					"key": "userId",
+					"value": "patrick",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "searchString",
+					"value": "BURGER SHOP LAS VEGAS",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "38972930-cce4-8fcf-1575-867733b47033",
+			"data": null,
+			"dataMode": "params",
+			"name": "GET2",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1541382635250,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
